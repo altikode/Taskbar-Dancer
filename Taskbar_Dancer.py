@@ -31,6 +31,7 @@ class TaskbarDancer(QWidget):
         self.notes = []
         self.drag_position = None
 
+
         # Doğrudan ana hoparlör ses ibresini başlat
         self.meter = None
         self.init_master_audio_meter()
